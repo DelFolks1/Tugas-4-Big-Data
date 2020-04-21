@@ -4,6 +4,7 @@ Nama : Raja Permata Boy <br>
 NRP : 05111740000070 <br>
 
 1. Lakukan instalasi Docker pada desktop. <br>
+<img src="/doc/installdocker.jpg"><br>
 2. Pembuatan Infrastruktur.Kita dapat menggunakan: <br>
 - Docker command<br>
   Kita mengeksekusi satu per satu pembuatan containernya.<br>
@@ -52,7 +53,10 @@ NRP : 05111740000070 <br>
           - zookeeper-server<br>
 5. Buka docker, maka akan belum ada kontainer yang terlihat<br>
 6. Lalu masuk ke direktori dimana file docker-compose.yml tadi berada. Lalu jalankan script dengan command docker-compose up -d
+<img src="/doc/cmd.jpg"><br>
 7. Infrastruktur kafka berhasil dibuat
+<img src="/doc/container.jpg"><br>
 8. Untuk testing, kita dapat menggunakan aplikasi Conduktor. Testing bertujuan untuk mengecek apakah kafka yg sudah kita buat dapat kita gunakan
+<img src="/doc/conduktor.jpg"><br>
 9. Buat konfigurasi cluster, kemudian tekan save, setelah itu hubungkan dengan cluster yang telah dibuat.
- 
+ <img src="/doc/conduktor2.jpg"><br>
