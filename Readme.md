@@ -2,9 +2,8 @@
 <h1> Kafka Infrastruktur </h1>
 Nama : Raja Permata Boy <br>
 NRP : 05111740000070 <br>
-
+<br>
 1. Lakukan instalasi Docker pada desktop. <br>
-<img src="/doc/installdocker.jpg"><br>
 2. Pembuatan Infrastruktur.Kita dapat menggunakan: <br>
 - Docker command<br>
   Kita mengeksekusi satu per satu pembuatan containernya.<br>
@@ -52,6 +51,7 @@ NRP : 05111740000070 <br>
         depends_on:<br>
           - zookeeper-server<br>
 5. Buka docker, maka akan belum ada kontainer yang terlihat<br>
+<img src="/doc/installdocker.jpg"><br>
 6. Lalu masuk ke direktori dimana file docker-compose.yml tadi berada. Lalu jalankan script dengan command docker-compose up -d<br>
 <img src="/doc/cmd.jpg"><br>
 7. Infrastruktur kafka berhasil dibuat<br>
