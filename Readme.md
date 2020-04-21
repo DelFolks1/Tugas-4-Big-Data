@@ -52,11 +52,11 @@ NRP : 05111740000070 <br>
         depends_on:<br>
           - zookeeper-server<br>
 5. Buka docker, maka akan belum ada kontainer yang terlihat<br>
-6. Lalu masuk ke direktori dimana file docker-compose.yml tadi berada. Lalu jalankan script dengan command docker-compose up -d
+6. Lalu masuk ke direktori dimana file docker-compose.yml tadi berada. Lalu jalankan script dengan command docker-compose up -d<br>
 <img src="/doc/cmd.jpg"><br>
-7. Infrastruktur kafka berhasil dibuat
+7. Infrastruktur kafka berhasil dibuat<br>
 <img src="/doc/container.jpg"><br>
-8. Untuk testing, kita dapat menggunakan aplikasi Conduktor. Testing bertujuan untuk mengecek apakah kafka yg sudah kita buat dapat kita gunakan
+8. Untuk testing, kita dapat menggunakan aplikasi Conduktor. Testing bertujuan untuk mengecek apakah kafka yg sudah kita buat dapat kita gunakan<br>
 <img src="/doc/conduktor.jpg"><br>
-9. Buat konfigurasi cluster, kemudian tekan save, setelah itu hubungkan dengan cluster yang telah dibuat.
+9. Buat konfigurasi cluster, kemudian tekan save, setelah itu hubungkan dengan cluster yang telah dibuat.<br>
  <img src="/doc/conduktor2.jpg"><br>
